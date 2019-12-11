@@ -1,0 +1,297 @@
+:root {
+
+}
+
+html, body{
+	padding: 0px;
+	margin: 0;
+	font-family: Century Gothic;
+	font-size: 15px;
+}
+nav{
+	display: flex; 
+	background: #00E100;
+	padding: 13px;
+	color: white;
+	justify-content: space-between;
+		align-items: center;
+
+
+	-webkit-box-shadow: 0 7px 5px -5px #999;
+                -moz-box-shadow: 0 7px 5px -5px #999;
+                box-shadow: 0 7px 5px -5px #999;
+
+}
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav li{
+	padding-right: 50px;
+}
+nav div img{
+	padding-left: 60px;
+}
+nav li a{
+	text-decoration: none;
+	color: white;
+}
+
+/*Acciones que puede tener un boton*/
+nav li a:hover{
+	color: black;
+
+}
+.main_section {
+	padding: 20%;
+	text-align: center;
+	font-size: 15px;
+	padding-top: 60px
+}
+
+.main_section h1{
+
+
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 5px;
+
+	background: #F7F7F7;
+	border: solid 2.5px black;
+	border-radius: 10px;
+}
+
+.big_images{
+	background-image: url("../imagenes/primeraimagen.png");
+	height: 250px;
+	background-size: cover;
+
+	/*para que la imagen quede centrada*/
+	background-position: center;
+}
+
+#etiqueta_dos{
+	font-family: Century Gothic;
+	color: black;
+	font-size: 30px;
+	padding-left: 50px
+}
+
+.big_images2{
+	background-image: url("../imagenes/amigos2.png");
+	height: 590px;
+}
+
+.etiqueta_tres{
+	font-size: 30px;
+	font-family: Century Gothic;
+	padding-left: 50px;
+}
+
+.products{
+	padding-top: 200px
+}
+.product{
+	/*para colocar una imagen como background*/
+	background-image: url("../imagenes/trazados.png");
+	height: 200px;
+
+	/*para centrar el background*/
+	background-position: center;
+
+	/*para que ocupe todo el espacio*/
+	background-size: cover;
+
+	padding: 10px;
+	padding-left: 480px;
+}
+
+.product .logos{
+	padding-top: 50px;
+	display: flex;
+		justify-content: space-between;
+}
+
+/*___________*/
+#whatsapp{
+	padding-left:23px 
+}
+/*___________*/
+
+.producto .telefonos {
+	
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	justify-content: space-between;
+
+}
+#wakanda{
+	text-align: center;
+}
+
+#auriculares{
+	padding-right: 50px;
+	padding-left: 50px
+}
+
+#protectores{
+	padding-top: 100px
+}
+
+
+/**/
+.compras{
+	display: flex;
+	padding: 25%;
+
+	/*cuando usas -60 el objeto sube en vez de bajar*/
+	margin-top: -60px
+	/**/
+
+}
+.compra .comprar{
+	background: violet;
+	padding: 30px;
+	border-radius: 10px
+
+	/**/
+	-webkit-box-shadow: 1px 1px 1px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 1px 1px -1px rgba(0,0,0,0.75);
+	box-shadow: 1px 1px 1px -1px rgba(0,0,0,0.75);
+/**/
+
+
+}
+
+.compra{
+	padding: 20px;
+	text-align: center;
+}
+
+.comprar h1{
+	background: #FFE7B8;
+	border-radius: 5px;
+	color: orange;
+	cursor: pointer;
+	padding: 5px
+
+}
+.comprar a{
+	text-decoration: none;
+}
+
+.comprar a h1:hover{
+	background: orange;
+	color: #FFE7B8;
+}
+
+.comprar p{
+	color: white;
+	font-size: 20px
+}
+
+/*_________________________*/
+
+.lisonja1{
+display: flex;
+padding: 80px
+}
+
+.lisonja2 {
+	padding: 20px
+}
+
+.lisonja3{
+	text-align: center;
+	background: #F3F3F3
+}
+
+.lisonja3 h1{
+	border: solid 0;
+	background: white;
+	background: #F3F3F3;
+}
+
+.lisonja2 .lisonja3{
+	padding-top: 30px;
+	padding-bottom: 30px
+}
+
+
+
+/*_____________________________*/
+
+hr{
+	margin-left: 200px;
+	margin-right: 200px;
+}
+#menciones{
+	text-align: center;
+	padding-bottom: 50px
+}
+
+.habladores1{
+	display: flex;
+	margin-top: -10px;
+}
+.habladores2{
+	padding: 10px;
+	justify-content: center;
+}
+
+
+
+.habladores2 .habladores3{
+	background-color: #F9F9F9;
+	font-size: 12px;
+}
+
+
+/*_____________________________*/
+
+
+.modulo_pago{
+	background-color: #F5F5F5;
+	padding: 20px;
+	border-radius: 10px;
+	margin-top: 100px;
+
+	/**/
+	-webkit-box-shadow: 4px 4px 4px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 4px 4px 4px -4px rgba(0,0,0,0.75);
+	box-shadow: 4px 4px 4px -4px rgba(0,0,0,0.75);
+
+}
+
+.modulo_pago_img {
+	margin: auto;
+	text-align: center;
+	max-width: 150px
+	/*/*EL MAX WIDTH ES PARA DETERMINAR EL TAMAÑO MAXIMO QUE TENDRA LA IMAGEN*/
+}
+
+.modulo_pago input{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	height: 35px;
+	border-radius: 5px;
+	border: 1px solid;
+	font-size: 18px;
+	outline: none; /* el outline es porque antes tenia una linea de color moleta en los cuadros de texto por defecto, ahora ya no las tiene  */
+	box-sizing: border-box;
+}
+
+.main_button{
+	background-color: black;
+	color: white;
+}
+
+.main_button:hover{
+	background-color: white;
+	color: black;
+}

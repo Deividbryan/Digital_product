@@ -1,0 +1,28 @@
+@media (max-width: 600px) {
+
+	.productos{
+		display: inherit;
+		height: auto;
+	}
+
+	.compras{
+		display: inherit;
+		height: auto;
+	}
+
+	.lisonja1{
+		display: inherit;
+		height: auto;
+	}
+
+	.products{
+		display: inherit;
+		height: auto;
+	}
+
+	.habladores1{
+		display: inherit;
+		height: auto;
+	}
+}
+
